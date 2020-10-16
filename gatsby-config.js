@@ -28,12 +28,12 @@ try {
 } catch (e) {
     ghostConfig = {
         development: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+            apiUrl: https://nordwest.herokuapp.com,
+            contentApiKey: 	25cb3ff9d10cbf0f8b3ea20b8f,
         },
         production: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+            apiUrl: https://nordwest.herokuapp.com,
+            contentApiKey: 	25cb3ff9d10cbf0f8b3ea20b8f,
         },
     }
 } finally {
